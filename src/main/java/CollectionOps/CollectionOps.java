@@ -19,7 +19,6 @@ public class CollectionOps {
 
         List<String> sfx = new ArrayList<>();
         Set<String> units = new HashSet<>();
-        List<String> juice = new ArrayList<>();
         List<Integer> ints = new ArrayList<>();
         Set<Double> set1 = new HashSet<>();
 
@@ -32,12 +31,6 @@ public class CollectionOps {
         units.add("nano");
         units.add("pico");
 
-        juice.add("Pop");
-        juice.add("Bang");
-        juice.add("Boom");
-        juice.add("Zing");
-        juice.add("Pow");
-
         ints.add(1);
         ints.add(2);
         ints.add(3);
@@ -49,7 +42,6 @@ public class CollectionOps {
 
         System.out.println(collectionOperations(sfx));
         System.out.println(collectionOperations(units));
-        System.out.println(collectionOperations(juice));
         System.out.println(collectionOperations(ints));
         System.out.println(collectionOperations(set1));
     }
