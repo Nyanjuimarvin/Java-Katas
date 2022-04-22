@@ -11,5 +11,14 @@ package CollectionOps;
 
 * */
 
+import java.util.Collection;
+
 public class CollectionOps {
+    public static void main(String[] args) {
+
+    }
+
+    public static Collection<?> collectionOperations(Collection<?> myCollection){
+        return myCollection;
+    }
 }
